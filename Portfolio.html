@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .grid-container > div {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .grid-container > div:hover {
+      background: #e4e4e4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: black;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Andrii Suprunevych</h1>
+  <p> Portfolio</p>
+</header>
+
+<section class="grid-container">
+  <div>
+    <h2>O mnie</h2>
+    <p>Jestem pasjonatem programowania z doświadczeniem w HTML, CSS, Kocham zycie</p>
+  </div>
+  <div>
+    <h2>Umiejętności</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Sigma</li>
+      
+    </ul>
+  </div>
+  <div>
+    <h2>Projekty</h2>
+    <p><a href="https://www.youtube.com/">Projekt 1</a></p>
+    <p><a href="blacked.com">Projekt 2</a></p>
+  </div>
+  <div>
+    <h2>Doświadczenie</h2>
+    <p>Brak (Moze kiedys kto wie).</p>
+  </div>
+  <div>
+    <h2>Edukacja</h2>
+    <p>Technikum Informatyczne</p>
+  </div>
+  <div>
+    <h2>Kontakt</h2>
+    <p>Email: dmytra@sigma.com</p>
+    <p>Telefon: 733 334 992</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Andrii Suprunevych. .</p>
+</footer>
+
+</body>
+</html>
